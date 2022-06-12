@@ -10,21 +10,34 @@
 <header></header>
 <body>
 
-<div class="card">
+<form action="">
   <div class="title">
     <h1>CheckPoint 01</h1>
   </div>
 
-<div class="inputs">
-  <input type="text" placeholder="Título">
-  <input type="text" placeholder="Descrição">
-  <input type="text" placeholder="URL Descrição">
+<div class="input-container1">
+  <label for="title">Título</label>
+    <input id="title" type="text" class="input" placeholder="Título" name="titulo">
+</div>
+
+<div class="input-container2">
+  <label for="description">Descrição</label>
+    <input id="description" type="text" class="input" placeholder="Descrição" name="descricao">
+  </div>
+
+<div class="input-container3">
+  <label for="url">URL Descrição</label>
+    <input id="url" type="text" class="url" placeholder="URL Descrição" name="url">
 </div>
 
 <div class="submit">
-  <button>Submit</button>
+  <button type="submit" class="submit" value="enviar" >Enviar</button>
 </div>
-</div>
+</form>
+
+<div class="container"></div>
+
+<script src="scrip.js"></script>
     
 
 </body>

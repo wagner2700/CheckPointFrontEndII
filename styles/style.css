@@ -3,9 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
+/* body{
   background-color: black;
-}
+} */
 .inputs{
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@ body{
 
 }
 
-.card{
+form{
   display: flex;
   justify-content: center;
   flex-direction: column;
