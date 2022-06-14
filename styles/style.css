@@ -19,8 +19,8 @@ form{
   justify-content: center;
   flex-direction: column;
   margin: 5%;
-  width: 350px;
-  height: 400px;
+  width: 450px;
+  height: 500px;
   background-color: rgb(15, 15, 53);
   border-radius: 20px;
 }
@@ -33,6 +33,7 @@ input{
   border-radius: 10px;
   background: rgb(56, 51, 51);
   
+  
 }
 
 input::placeholder {
@@ -44,7 +45,10 @@ input:hover{
   background-color: yellow;
 }
 
-
+label{
+  color: white;
+  margin-left: 15px;
+}
 
 .title{
   display: flex;
@@ -86,4 +90,18 @@ button:active{
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+}
+
+.card {
+  width: 20rem;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,20rem );
 }
